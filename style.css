@@ -1,0 +1,421 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+@import url(https://fonts.google.com/specimen/Open+Sans);
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, button{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background: url('images/bg-hero-desktop.svg');
+}
+
+hr{
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    margin: 3rem;
+}
+nav button{
+    margin: 3rem;
+    border: none;
+    width: 10rem;
+    border-radius: 3rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+}
+nav .btn:hover{
+    background-color: rgb(227, 216, 216);
+    cursor: pointer;
+}
+
+
+.build-sec{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    }
+ 
+.mock{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-left: 13rem;
+    height: 70%;
+}
+
+.build-text{
+    margin: 5rem;
+    width: 30%;
+    height: 30%;
+}
+ 
+.build-text p{
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 25px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.build-btn{
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    height: 3rem;
+    width: 15rem;
+    margin-top: 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin-top: 9rem;
+}
+
+.form{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-bottom: 3rem;
+
+ }
+.form h1{
+    font-size: 4rem;
+}
+.grow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .grow .info{
+    margin: 6rem;
+    text-align: start;
+ }
+ .grow p{
+    line-height: 1.5rem;
+    color: #888;
+ }
+
+.grow img{
+    width: 35%;
+    height: 50%;
+    margin-left: 6rem;
+    padding: 2rem;
+}
+
+
+.flow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 2.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .flow .info{
+    margin: 6rem;
+    text-align: start;
+ }
+ .flow p{
+    line-height: 1.5rem;
+    color: #888;
+ }
+
+.flow img{
+    width: 35%;
+    height: 50%;
+    margin-left: 6rem;
+    padding: 2rem;
+}
+
+
+
+.Users{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 2.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .Users .info{
+    margin: 6rem;
+    text-align: start;
+ }
+ .Users p{
+    line-height: 1.5rem;
+    color: #888;
+ }
+
+.Users img{
+    width: 35%;
+    height: 50%;
+    margin-left: 6rem;
+    padding: 2rem;
+}
+
+.card{
+    margin-top: 4rem;
+     width: 60%;
+    height: 15rem;
+     background-color: white;
+    
+    
+}
+.card h1{
+    margin-top: 2.5rem;
+}
+.card button{
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    height: 4rem;
+    width: 45%;
+    margin-top: 2rem; 
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+}
+
+footer {
+    color: #bfd7db;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -5px;
+  }
+
+
+ 
+  .contact{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+      
+}
+.info-p{
+    margin-left: -20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.contact img{
+    padding-left: 10px;
+ 
+}
+ 
+.contact .white-img{
+    background-color: white;
+    border-radius: 10px;
+}
+li {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    margin-bottom: 1rem;
+ 
+}
+ 
+li img {
+    padding-right: 20px;  
+ }
+.info-cont ul{
+    list-style: none;
+}
+
+
+
+
+.info-list{
+    width: 30%;
+    display: flex;
+    margin-top: -5rem;
+}
+.info-list ul{
+    padding-right: 5rem;
+}
+
+.social{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+/* CSS */
+.social li {
+    display: inline-block;
+    margin-right: 10px; 
+    margin-top: 2rem;
+}
+
+.social li i {
+    font-size: 24px; /* Adjust the icon size */
+    color: #f6ecec; /* Adjust the icon color */
+}
+
+.social li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Adjust the link color */
+}
+
+.social li a:hover {
+    color: #007bff; /* Adjust the link color on hover */
+}
+
+.copy{
+    display: flex;
+    padding-top: 1rem;
+}
+ 
+a,li:hover{
+    cursor: pointer;
+    color: rgb(227, 216, 216);
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(252, 150, 167);
+}
+
+.letter{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.letter h1{
+    padding-bottom: 2rem;
+    margin-top: -7rem;
+}
+
+.letter p{
+    padding-bottom: 2rem;
+    line-height: 25px;
+}
+
+.letter input{
+    margin-right: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.letter button{
+    color: white;
+    background-color: rgb(254, 37, 163);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/* Existing CSS code */
+
+/* 
+
+/* Add this media query for mobile view */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px; 
+    }
+
+    header {
+        background: url('images/bg-hero-mobile.svg'); 
+    }
+
+    nav img,
+    nav button {
+        margin: 1rem; 
+    }
+
+    .mock {
+        width: 100%; 
+        margin: 0; 
+    }
+
+    .build-text {
+        margin: 2rem; 
+        width: 100%; 
+    }
+
+    .build-btn {
+        width: 100%; 
+    }
+
+    main {
+        margin-top: 4rem; 
+    }
+
+    .form,
+    .grow,
+    .flow,
+    .Users {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .grow img,
+    .flow img,
+    .Users img {
+        width: 100%; 
+        margin-left: 0; 
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column; 
+    }
+
+    .contact,
+    .info-list,
+    .social,
+    .letter {
+        width: 100%; 
+    }
+
+    .info-list ul {
+        padding-right: 0; 
+    }
+
+    .copy {
+        flex-direction: column; 
+    }
+
+    .letter h1 {
+        margin-top: 0; 
+    }
+}
